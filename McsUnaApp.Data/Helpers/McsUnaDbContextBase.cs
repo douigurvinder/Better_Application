@@ -10,12 +10,7 @@ namespace McsUnaApp.Data.Helpers
 {
 
 
-    //public abstract class McsUnaDbContextBase<T, VW> : CoreRepository<T, VW, StudentSearch, McsUnaDbContext>
-    //   where T : class, new()
-    //   where VW : class, new()
-    //{
-
-    //}
+   
 
     public abstract class McsUnaDbContextNoVwBase<T,VW> : CoreRepository<T,VW, StudentSearch, McsUnaDbContext>
        where T : class, new()
